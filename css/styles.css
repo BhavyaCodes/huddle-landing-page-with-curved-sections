@@ -1,0 +1,33 @@
+/************************************************
+font-family: 'Open Sans', sans-serif; 400, 600 , 700
+font-family: 'Poppins', sans-serif; 700 , titles
+************************************************/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+/*********Navbar*************/
+.navbar{
+  padding-bottom: 150px;
+}
+.button-navbar{
+  margin-right: 10px;
+}
+
+
+
+/**********Features************/
+#features img{
+  width: 100%;
+}
+.feature-card{
+  display: flex;
+  align-items: center;
+}
