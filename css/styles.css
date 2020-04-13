@@ -232,4 +232,8 @@ h1{
   .footer-logo{
     padding-top: 150px;
   }
+  /**********waves************/
+   .bg-section-top{
+    content: url("/images/bg-section-top-mobile-1.svg")
+  }
 }
