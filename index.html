@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -18,17 +19,22 @@
   </style> -->
 
   <!-- scripts -->
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/492aa02ecb.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <section id="navbar">
     <div class="navbar">
       <img src="images/logo.svg" alt="logo">
-      <button type="button-navbar" name="button">Try it free</button>
+      <a href="#" class="nav-button">Try It Free</a>
     </div>
   </section>
 
@@ -39,99 +45,134 @@
     <div class="container">
 
 
-    <h1>Build The Community Your Fans Will Love</h1>
+      <h1>Build The Community Your Fans Will Love</h1>
 
-    <p>
-      Huddle re-imagines the way we build communities. You have a voice, but so does
-      your audience. Create connections with your users as you engage in genuine discussion.
-    </p>
+      <p class="description-p">
+        Huddle re-imagines the way we build communities. You have a voice, but so does
+        your audience. Create connections with your users as you engage in genuine discussion.
+      </p>
 
-    <button type="button" name="button">Get Started For Free</button>
-    <img src="images/screen-mockups.svg" alt="screen-mockups">
+      <a href="#" class="title-button">Get Started For Free</a>
+      <img class="screen-mockup" src="images/screen-mockups.svg" alt="screen-mockups">
 
-    <div class="row">
-      <div class="col-lg-6">
-        1.4k+
-        Communities Formed
-      </div>
-      <div class="col-lg-6">
-        2.7m+
-        Messages Sent
-      </div>
-    </div>
+      <div class="row box-row">
+        <div class="box-col col-lg-6">
+          <div class="box box-left">
+            <img src="images/icon-communities.svg" alt="communities">
+            <p class="box-body">1.4k+</p>
+            <p class="box-footer">communities formed</p>
+          </div>
+        </div>
+          <div class="box-col col-lg-6">
+            <div class="box box-right">
+              <img src="images/icon-messages.svg" alt="messages-icon">
+              <p class="box-body">2.7m+</p>
+              <p class="box-footer">Messages Sent</p>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
-  <section id="features">
+
+  <!-- wave top-->
+  <img class="wave wave-top" src="images/bg-section-top-desktop-1.svg" alt="">
+  <!-- features -->
+
+  <section class="features features-odd">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
-          <img src="images/illustration-grow-together.svg" alt="illustration-grow-together.svg">
-        </div>
         <div class="feature-card col-lg-6">
           <div>
             <h2>Grow Together</h2>
             <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-            Think of the insightful conversations you miss out on with a feedback form.</p>
+              Think of the insightful conversations you miss out on with a feedback form.</p>
           </div>
         </div>
+        <div class="col-lg-6">
+          <img src="images/illustration-grow-together.svg" alt="illustration-grow-together.svg">
+        </div>
       </div>
+    </div>
+  </section>
+  <!--Wave bottom-->
+  <img class="wave wave-bottom" src="images/bg-section-bottom-desktop-1.svg" alt="">
+
+  <section class="features features-even">
+    <div class="container">
       <div class="row">
+        <div class="col-lg-6">
+          <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation.svg">
+        </div>
         <div class="feature-card col-lg-6">
           <div>
             <h2>Flowing Conversations</h2>
             <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-            just-in-time loading for a more natural flow.</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation.svg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="images/illustration-your-users.svg" alt="illustration-your-users.svg">
-        </div>
-        <div class="feature-card col-lg-6">
-          <div>
-            <h2>Your Users</h2>
-            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-            once signed in to your app, your users can start chatting immediately.</p>
+              just-in-time loading for a more natural flow.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <section id="get-started">
-    <h1>Ready To Build Your Community?</h1>
-    <button type="button" name="button">Get Started For Free</button>
+  <!-- wave top-->
+  <img class="wave wave-top" src="images/bg-section-top-desktop-2.svg" alt="">
+  <section class="features features-odd">
+    <div class="container">
+      <div class="row">
+        <div class="feature-card col-lg-6">
+          <div>
+            <h2>Your Users</h2>
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+              once signed in to your app, your users can start chatting immediately.</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/illustration-your-users.svg" alt="illustration-your-users.svg">
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- wave bottom -->
+  <img class="wave wave-bottom" src="images/bg-section-bottom-desktop-2.svg" alt="">
+
+  <section id="get-started">
+    <h1 class="bottom-title">Ready To Build Your Community?</h1>
+    <a href="#" class="title-button">Get Started For Free</a>
+  </section>
+
+  <!-- footer -->
+<!-- footer top wave -->
+<img class="wave wave-top wave-footer" src="images/bg-footer-top-desktop.svg" alt="">
   <section id="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="images/logo.svg" alt="logo">
+          <img src="images/logo-white.svg" alt="logo">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
             vestibulum a, ultrices quis sem.
           </p>
-          <p>Phone: +1-543-123-4567</p>
-          <p>example@huddle.com</p>
+          <p><i class="small-icon fas fa-phone-alt"></i> Phone: +1-543-123-4567</p>
+          <p><i class="small-icon fas fa-envelope"></i> example@huddle.com</p>
 
         </div>
         <div class="col-lg-6">
-          <h3>Newsletter</h3>
-          <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-          send you spam or pass on your email address</p>
+          <h3>NEWSLETTER</h3>
+          <p class="newsletter-description">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+            send you spam or pass on your email address</p>
           <div class="row">
             <div class="col-lg-8">
-              <input type="text" name="name" placeholder="asdf">
+              <input class="subscribe-input-box" type="text" name="name" placeholder="example@example.com">
             </div>
-            <div class="col-lg-4">
-              <button type="button" name="button">Subscribe</button>
+            <div class="subscribe-button-div col-lg-4">
+              <a href="#" class="subscribe-button">Subscribe</a>
             </div>
           </div>
+        </div>
+        <div class="social-icons col">
+          <a href="#"><i class="big-icon fab fa-facebook-square"></i></a>
+          <a href="#"><i class="big-icon fab fa-instagram"></i></a>
+          <a href="#"><i class="big-icon fab fa-twitter"></i></a>
         </div>
       </div>
     </div>
@@ -139,8 +180,9 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#"><i class="fab fa-github"></i> Juggernaut9</a>.
     </p>
   </footer>
 </body>
+
 </html>
